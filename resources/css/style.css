@@ -36,17 +36,22 @@
   height: 900px;
   margin: 0 auto;
   position: relative;
-  background-color: rgba(128, 128, 128, 0.8);
-  border-bottom: 3px solid rgba(128, 128, 128, 0.8);
-  border-right: 3px solid rgba(128, 128, 128, 0.8);
 }
 
 .grid-block {
-  padding: 2px;
   position: relative;
   display: inline-grid;
-  margin: 3px 0 0 3px;
   text-align: center;
+  background-color: rgba(128, 128, 128, 0);
+  border-top: 10px solid rgba(255, 255, 255, 0);
+  border-left: 10px solid rgba(255, 255, 255, 0);
+  background-clip: padding-box;
+  transition: background-color 0.4s;
+  border-radius: 1%;
+}
+
+.grid-block:hover {
+  background-color: rgba(128, 128, 128, 0.8);
 }
 
 .grid-block div.cover {
@@ -55,16 +60,18 @@
   background-position: center;
   background-size: cover;
   transition: opacity 0.4s;
+  border-radius: 7px;
 }
 
 .album-text {
+  display: inline-block;
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: opacity 0.5s;
-  font-weight: 2 00;
+  font-weight: 200;
   font-size: 20px;
   color: white;
   text-align: center;
