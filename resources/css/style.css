@@ -86,31 +86,3 @@
 .grid-block:hover .album-text {
   opacity: 0.95;
 }
-
-.grid-block div.cover1 {
-  background-image: url(img/cover1.jpg);
-}
-.grid-block div.cover2 {
-  background-image: url(img/cover2.jpg);
-}
-.grid-block div.cover3 {
-  background-image: url(img/cover3.jpg);
-}
-.grid-block div.cover4 {
-  background-image: url(img/cover4.jpg);
-}
-.grid-block div.cover5 {
-  background-image: url(img/cover5.jpg);
-}
-.grid-block div.cover6 {
-  background-image: url(img/cover6.jpg);
-}
-.grid-block div.cover7 {
-  background-image: url(img/cover7.jpg);
-}
-.grid-block div.cover8 {
-  background-image: url(img/cover8.jpg);
-}
-.grid-block div.cover9 {
-  background-image: url(img/cover9.jpg);
-}
